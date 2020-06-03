@@ -17,6 +17,7 @@ end
 
 def engage
   date = generate_star_date
+  crew == crew
   state_log(date)
   greet_crew(crew)
 end
