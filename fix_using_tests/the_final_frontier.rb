@@ -7,12 +7,12 @@ def state_log(star_date)
   "Captain's Log, star date #{star_date}."
 end
 
-def crew
+def $crew
   ["Geordi", "Data", "Worf", "William", "Beverly", "Deanna"]
 end
 
 def greet_crew(crew)
-   crew.each do |crew_member|
+   $crew.each do |crew_member|
      "Hello #{crew_member}."
   end
 end
