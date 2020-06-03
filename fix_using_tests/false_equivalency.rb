@@ -1,7 +1,7 @@
 
 
-def get_user_input
-  gets.chomp
+def get_user_input(selection)
+  gets(selection).chomp
 end
 
 def prompt_user
