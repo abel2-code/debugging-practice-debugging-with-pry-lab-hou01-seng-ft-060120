@@ -12,7 +12,7 @@ def crew
 end
 
 def greet_crew (crew)
-  "Hello #{crew}"
+  "Hello #{crew}."
 end
 
 def engage
